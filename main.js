@@ -55,7 +55,8 @@ function createRandomArray(length) {
   
   const randomArray = createRandomArray(100);
   const [evenArray, oddArray] = splitArray(randomArray);
-  
+
+//Hitung nilai minimum, maksimum, total, dan rata-rata dari kedua array
   const minEven = findMin(evenArray);
   const maxEven = findMax(evenArray);
   const totalEven = calculateTotal(evenArray);
